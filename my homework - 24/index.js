@@ -1,11 +1,6 @@
 class SuperMath {
     check(obj) {
         const { X, Y, znak } = obj;
-        if (!this.isValidZnak(znak)) {
-            console.log('Некоректне значення знаку. Допустимі значення: +, -, /, *, %');
-            this.input(obj);
-            return;
-        }
         const result = this.calculate(X, Y, znak);
         const confirmation = prompt(`Ви бажаєте виконати дію ${X} ${znak} ${Y}? Введіть "yes" або "no".`);
         if (confirmation === 'yes') {
@@ -18,7 +13,10 @@ class SuperMath {
     input(prevObj = {}) {
         const X = Number(prompt('Введіть X:')) || prevObj.X;
         const Y = Number(prompt('Введіть Y:')) || prevObj.Y;
-        const znak = prompt('Введіть знак дії (+, -, /, *, %):') || prevObj.znak;
+        let znak = prevObj.znak;
+        while (!this.isValidZnak(znak)) {
+            znak = prompt('Введіть знак дії (+, -, /, *, %):') || prevObj.znak;
+        }
         const obj = { X, Y, znak };
         this.check(obj);
     }
@@ -47,4 +45,3 @@ class SuperMath {
 const obj = { X: 12, Y: 3, znak: '/' };
 const p = new SuperMath();
 p.check(obj); // --> запитує користувача підтвердження і виводить результат 4
-
