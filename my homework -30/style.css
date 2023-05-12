@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    overflow: hidden;
+    position: relative;
+    left: 750px;
+    top: 151px;
+}
+
+.card_img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card_header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.card_price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.card_btn {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.card_btn:hover {
+    background-color: #2e8b57;
+}
+
+.overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    left: 48%;
+    max-width: 90%;
+    overflow: hidden;
+    position: fixed;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.modal__close {
+    color: #aaa;
+    cursor: pointer;
+    font-size: 1.3rem;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+.form label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form select {
+    cursor: pointer;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.minus__btn,
+.plus__btn {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 30px;
+    margin: 0 10px;
+    width: 30px;
+    position: relative;
+    bottom: 4px;
+}
+
+
+.minus__btn:hover,
+.plus__btn:hover {
+    background-color: #3e8e41;
+}
+
+textarea {
+    resize: none;
+}
+
+.overlay_submit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.overlay_submit .modal_submit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.modal_submit__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+.modal_submit__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal_submit__info {
+    margin-bottom: 10px;
+}
+
+.modal_submit-name,
+.modal_submit-city,
+.modal_submit-post,
+.modal_submit-quantity {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.modal_submit__button {
+    background-color: #1abc9c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal_submit__button:hover {
+    background-color: #148f77;
+}
+
+.button__submit{
+    background-color: #1abc9c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button__submit:hover{
+    background-color: #015443;
+    color: black;
+}
