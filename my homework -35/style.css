@@ -1,0 +1,42 @@
+
+body {
+    padding-top: 11%;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+#weather-info {
+    text-align: center;
+    width: 235px;
+    margin: 0 auto;
+    background-color: #7490eb;
+    padding: 20px;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.city-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.pressure,
+.description,
+.humidity,
+.wind-speed,
+.wind-direction {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
