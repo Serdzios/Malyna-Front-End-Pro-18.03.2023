@@ -1,5 +1,6 @@
 import { ImageTags } from './ImageTag.js';
 import { getImageInfo } from './getImageInfo.js';
+import { uploadFoto } from './uploadFoto.js';
 const arrayLengthPictures = 25;
 const rangeOfLikes = { min: 15, max: 200 };
 const rangeOfComments = { min: 1, max: 20 };
@@ -98,3 +99,9 @@ document.addEventListener('keydown', function (event) {
     document.body.style.position = '';
   }
 });
+
+//moduletask 4
+const uploadBtn = document.querySelector('#upload-file')
+uploadBtn.addEventListener('change', function () {
+  uploadFoto()
+})
