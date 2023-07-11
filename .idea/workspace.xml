@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da75bad8-614c-4127-922d-23161be8a017" name="Changes" comment="adding homework 41">
+      <change afterPath="$PROJECT_DIR$/New Project/photos-app-main/js/dataInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New Project/photos-app-main/js/imagesEffects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Project/photos-app-main/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/New Project/photos-app-main/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="tsconfig.json" />
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="module1-task1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2NC5fHuxnXELwDVKqy94G88YEy7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.15.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.15.0&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\hillel pro\My homework\my homework -36" />
+      <recent name="C:\hillel pro\lesson1\example 1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js (5)">
+    <configuration name="index.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/my homework -21/index.js" working-dir="$PROJECT_DIR$/my homework -21">
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/New Project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/New Project/photos-app-main/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my homework -36/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js (5)" />
+        <item itemvalue="npm.start (2)" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da75bad8-614c-4127-922d-23161be8a017" name="Changes" comment="" />
+      <created>1679155326432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679155326432</updated>
+      <workItem from="1679155329022" duration="716000" />
+      <workItem from="1679307391386" duration="385000" />
+      <workItem from="1679419268594" duration="651000" />
+      <workItem from="1679843360546" duration="47000" />
+      <workItem from="1679843556577" duration="2484000" />
+      <workItem from="1679856877035" duration="3391000" />
+      <workItem from="1680185208694" duration="5948000" />
+      <workItem from="1680510296421" duration="2291000" />
+      <workItem from="1680520228746" duration="227000" />
+      <workItem from="1680621400912" duration="5373000" />
+      <workItem from="1680807141449" duration="2690000" />
+      <workItem from="1681298146958" duration="6388000" />
+      <workItem from="1681381246500" duration="17000" />
+      <workItem from="1681838524967" duration="819000" />
+      <workItem from="1682339904533" duration="1797000" />
+      <workItem from="1682359329736" duration="4501000" />
+      <workItem from="1682408325901" duration="8851000" />
+      <workItem from="1682494638965" duration="8642000" />
+      <workItem from="1682934165369" duration="17000" />
+      <workItem from="1683229747635" duration="3315000" />
+      <workItem from="1683273484457" duration="3721000" />
+      <workItem from="1683365179837" duration="8746000" />
+      <workItem from="1683535509559" duration="8894000" />
+      <workItem from="1683615409182" duration="1357000" />
+      <workItem from="1683801814629" duration="6875000" />
+      <workItem from="1683873434478" duration="349000" />
+      <workItem from="1684177762946" duration="4812000" />
+      <workItem from="1684402508215" duration="13312000" />
+      <workItem from="1684488582031" duration="19442000" />
+      <workItem from="1684570253205" duration="98000" />
+      <workItem from="1684570385694" duration="2429000" />
+      <workItem from="1684585319552" duration="879000" />
+      <workItem from="1684699165316" duration="759000" />
+      <workItem from="1684926124833" duration="597000" />
+      <workItem from="1685025999555" duration="2804000" />
+      <workItem from="1685366076174" duration="69000" />
+      <workItem from="1685539391699" duration="675000" />
+      <workItem from="1685651141760" duration="40000" />
+      <workItem from="1686061940896" duration="8202000" />
+      <workItem from="1686076479372" duration="243000" />
+      <workItem from="1686076737460" duration="5753000" />
+      <workItem from="1686129021173" duration="2208000" />
+      <workItem from="1686132229954" duration="1922000" />
+      <workItem from="1686134816599" duration="3101000" />
+      <workItem from="1686226651754" duration="2294000" />
+      <workItem from="1686230116292" duration="2062000" />
+      <workItem from="1686233789295" duration="409000" />
+      <workItem from="1686234229306" duration="335000" />
+      <workItem from="1686234584173" duration="339000" />
+      <workItem from="1686234941872" duration="264000" />
+      <workItem from="1686235237837" duration="34000" />
+      <workItem from="1686235284641" duration="44000" />
+      <workItem from="1686235343373" duration="230000" />
+      <workItem from="1686235603268" duration="787000" />
+      <workItem from="1686574122586" duration="1804000" />
+      <workItem from="1686649441724" duration="2634000" />
+      <workItem from="1686652226992" duration="830000" />
+      <workItem from="1686653663242" duration="2197000" />
+      <workItem from="1686733773248" duration="1189000" />
+      <workItem from="1687461212708" duration="3523000" />
+      <workItem from="1687508425567" duration="11548000" />
+      <workItem from="1687774593595" duration="8293000" />
+      <workItem from="1687858972986" duration="18640000" />
+      <workItem from="1687957418127" duration="4982000" />
+      <workItem from="1687976902973" duration="762000" />
+      <workItem from="1688057644641" duration="2476000" />
+      <workItem from="1688115799858" duration="104000" />
+      <workItem from="1688221455118" duration="2582000" />
+      <workItem from="1688413033084" duration="663000" />
+      <workItem from="1688474307755" duration="129000" />
+      <workItem from="1688474459207" duration="2792000" />
+      <workItem from="1688477309660" duration="1630000" />
+      <workItem from="1688560258248" duration="1677000" />
+      <workItem from="1688563149267" duration="1358000" />
+      <workItem from="1688647146455" duration="5899000" />
+      <workItem from="1688815524420" duration="6168000" />
+      <workItem from="1688996791569" duration="2170000" />
+      <workItem from="1689093329191" duration="1854000" />
+    </task>
+    <task id="LOCAL-00001" summary="delete idea">
+      <created>1679155372343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679155372343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete idea">
+      <created>1679155384273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679155384273</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete idea">
+      <created>1679155475724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679155475724</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding directory example 1">
+      <created>1679155585018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679155585018</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding homework-3">
+      <created>1679849519613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849519613</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding all">
+      <created>1679849760328</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849760328</updated>
+    </task>
+    <task id="LOCAL-00007" summary="delete idea">
+      <created>1679849816826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849816826</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adding homework 4,5,6,7,8,9">
+      <created>1680194853773</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680194853773</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding homework 10,11">
+      <created>1680512007109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680512007109</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changing homework 10. replace document = console">
+      <created>1680621645248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680621645248</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding homework 12,13">
+      <created>1680627572075</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680627572075</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding homework 14">
+      <created>1680629821448</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680629821448</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding homework 15,16,17">
+      <created>1681318417044</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681318417044</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adding homework 20">
+      <created>1682366624077</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682366624077</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding homework 22">
+      <created>1682415477835</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682415477835</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding homework 23-24">
+      <created>1682501043060</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682501043060</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adding homework 24">
+      <created>1682501311935</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682501311935</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding homework 21">
+      <created>1682537144790</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537144790</updated>
+    </task>
+    <task id="LOCAL-00019" summary="adding homework 25-29">
+      <created>1683616021056</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683616021056</updated>
+    </task>
+    <task id="LOCAL-00020" summary="adding homework 30-31">
+      <created>1683873776301</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683873776301</updated>
+    </task>
+    <task id="LOCAL-00021" summary="adding homework 32">
+      <created>1684571138420</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684571138420</updated>
+    </task>
+    <task id="LOCAL-00022" summary="adding homework 35">
+      <created>1684585602313</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684585602313</updated>
+    </task>
+    <task id="LOCAL-00023" summary="adding homework 34">
+      <created>1685366127163</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685366127163</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adding homework 36">
+      <created>1686083822847</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686083822847</updated>
+    </task>
+    <task id="LOCAL-00025" summary="adding homework 37">
+      <created>1686132590757</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686132590757</updated>
+    </task>
+    <task id="LOCAL-00026" summary="adding homework 38">
+      <created>1686227812433</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686227812433</updated>
+    </task>
+    <task id="LOCAL-00027" summary="adding homework 37-38">
+      <created>1686234691583</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686234691583</updated>
+    </task>
+    <task id="LOCAL-00028" summary="adding homework 37">
+      <created>1686235848844</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686235848844</updated>
+    </task>
+    <task id="LOCAL-00029" summary="adding homework 38">
+      <created>1686236208591</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686236208591</updated>
+    </task>
+    <task id="LOCAL-00030" summary="adding homework 39">
+      <created>1686660542498</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686660542498</updated>
+    </task>
+    <task id="LOCAL-00031" summary="adding homework 39">
+      <created>1687960660128</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687960660128</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adding homework 40">
+      <created>1687977071652</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687977071652</updated>
+    </task>
+    <task id="LOCAL-00033" summary="adding homework 41">
+      <created>1688068088363</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688068088363</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\hillel pro\My homework\my homework -42" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding all" />
+    <MESSAGE value="delete idea" />
+    <MESSAGE value="adding homework 4,5,6,7,8,9" />
+    <MESSAGE value="adding homework 10,11" />
+    <MESSAGE value="changing homework 10. replace document = console" />
+    <MESSAGE value="adding homework 12,13" />
+    <MESSAGE value="adding homework 14" />
+    <MESSAGE value="adding homework 15,16,17" />
+    <MESSAGE value="adding homework 20" />
+    <MESSAGE value="adding homework 22" />
+    <MESSAGE value="adding homework 23-24" />
+    <MESSAGE value="adding homework 24" />
+    <MESSAGE value="adding homework 21" />
+    <MESSAGE value="adding homework 25-29" />
+    <MESSAGE value="adding homework 30-31" />
+    <MESSAGE value="adding homework 32" />
+    <MESSAGE value="adding homework 35" />
+    <MESSAGE value="adding homework 34" />
+    <MESSAGE value="adding homework 36" />
+    <MESSAGE value="adding homework 37-38" />
+    <MESSAGE value="adding homework 37" />
+    <MESSAGE value="adding homework 38" />
+    <MESSAGE value="adding homework 39" />
+    <MESSAGE value="adding homework 40" />
+    <MESSAGE value="adding homework 41" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding homework 41" />
+  </component>
+</project>
